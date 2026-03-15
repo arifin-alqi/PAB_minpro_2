@@ -2,6 +2,10 @@
 
 Aplikasi transaksi gadai berbasis Flutter + Supabase.
 
+Nama: Muhammad Arifin Alqi. AB
+
+NIM:2409116106
+
 ---
 
 ## Screenshots
@@ -70,8 +74,8 @@ create policy "allow all" on pegadaian
 3. Isi credentials di `lib/main.dart`:
 ```dart
 await Supabase.initialize(
-  url: 'ISI_SUPABASE_URL_KAMU',
-  anonKey: 'ISI_SUPABASE_ANON_KEY_KAMU',
+  url: 'https://vayieyzozxvrpuksbbvd.supabase.co',
+  anonKey: 'sb_publishable_qtDilMiLRwHh8cRN8xr9oA_5ydfEC02',
 );
 ```
 

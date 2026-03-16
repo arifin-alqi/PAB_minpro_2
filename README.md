@@ -83,8 +83,8 @@ create table pegadaian (
 ### Environment Variable
 Supabase URL dan API Key disimpan di file `.env` dan tidak di-push ke GitHub.
 ```
-url: 'https://vayieyzozxvrpuksbbvd.supabase.co',
-anonKey: 'sb_publishable_qtDilMiLRwHh8cRN8xr9oA_5ydfEC02',
+SUPABASE_URL=...
+SUPABASE_ANON_KEY=...
 ```
 
 ### Menjalankan Aplikasi
